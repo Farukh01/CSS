@@ -1,0 +1,139 @@
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+            body {
+                background: rgb(42, 42, 42);
+                color: rgb(224, 220, 220);
+                font-size: 16px;
+                font-weight: normal;
+                font-family: 'Roboto Slab', serif;
+                font-style: italic;
+                /*font: normal 16px 'Roboto', sans-serif;*/
+                /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            .foto {
+                border-radius: 28px;
+                box-shadow: grey 12px 11px 11px 0px;
+            }
+            /* .list-card {
+    list-style: none;
+} */
+            
+            .info {
+                margin-bottom: 20px 20px;
+                display: flex;
+            }
+            /* @media (max-width: 750px) {
+            .info {
+                text-align: center;
+            } */
+            
+            .info-text {
+                margin-left: 40px;
+            }
+            
+            .info-text h4 {
+                margin-bottom: 10px;
+            }
+            /* .list { */
+            /* list-style: none; */
+            /* } */
+            
+            .atall {
+                max-width: 750px;
+                margin: auto;
+                padding-top: 20px;
+            }
+            
+            .info p {
+                color: rgb(212, 212, 212);
+                margin: 0;
+                font-style: italic;
+            }
+            /* .list { */
+            /* list-style: none; */
+            /* } */
+            
+            .social {
+                background: rgb(231, 229, 229);
+                padding: 10px 20px;
+                margin: 5px;
+                border: 4px rgb(29, 29, 29) solid;
+                border-radius: 95px;
+                display: flex;
+                text-decoration: none;
+            }
+            
+            .social__inner {
+                display: flex;
+                align-items: center;
+            }
+            
+            .social__inner:first-child a {
+                color: rgb(2, 2, 2)
+            }
+            
+            .social__inner:last-child {
+                padding-left: 15px;
+            }
+            
+            .social__inner:last-child a {
+                color: black;
+            }
+            
+            .a-blue {
+                color: rgb(8, 8, 8);
+            }
+            
+            .card {
+                background-color: rgb(98, 127, 155);
+                margin-bottom: 0px 20px;
+                padding: 15px 20px;
+                border-radius: 30px;
+            }
+            /* .card:first-child {
+    list-style-type: none;
+} */
+            
+            .table {
+                width: 40%;
+            }
+            
+            .form-group label {
+                display: block;
+                font-size: 15px;
+                color: rgb(231, 229, 229)
+            }
+            
+            .form-group input,
+            .form-group textarea {
+                width: 40%;
+                box-sizing: border-box;
+                border: none;
+                background: rgb(192, 192, 192);
+                color: black;
+                padding: 5px 0px;
+                outline: none;
+                font-family: inherit;
+            }
+            
+            .btn {
+                background-color: rgb(171, 171, 172);
+                color: rgb(238, 238, 238);
+                padding: 10px 20px;
+                border-radius: 13%;
+                border: none;
+                font-family: inherit;
+                cursor: pointer;
+            }
+            
+            .btn:hover {
+                opacity: 0.9;
+            }
